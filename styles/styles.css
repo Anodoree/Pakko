@@ -531,7 +531,7 @@ ul {
 
 .banner__img {
   height: 927px;
-  background-image: url(/images/banner.png);
+  background-image: url(../images/banner.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
@@ -746,11 +746,11 @@ ul {
 }
 
 .tarif-item-1 .tarif-header {
-  background-image: url(/images/tarif-header-1.svg);
+  background-image: url(../images/tarif-header-1.svg);
 }
 
 .tarif-item-1 .tarif-list__item::before {
-  background-image: url(/images/check-1.svg);
+  background-image: url(../images/check-1.svg);
 }
 
 .tarif-item-1 .tarif-footer {
@@ -758,7 +758,7 @@ ul {
 }
 
 .tarif-item-2 .tarif-header {
-  background-image: url(/images/tarif-header-2.svg);
+  background-image: url(../images/tarif-header-2.svg);
 }
 
 .tarif-item-2 .tarif-info__title {
@@ -766,7 +766,7 @@ ul {
 }
 
 .tarif-item-2 .tarif-list__item::before {
-  background-image: url(/images/check-2.svg);
+  background-image: url(../images/check-2.svg);
 }
 
 .tarif-item-2 .tarif-footer {
@@ -789,7 +789,7 @@ ul {
 }
 
 .tarif-item-3 .tarif-header {
-  background-image: url(/images/tarif-header-3.svg);
+  background-image: url(../images/tarif-header-3.svg);
 }
 
 .tarif-item-3 .tarif-info__title {
@@ -797,7 +797,7 @@ ul {
 }
 
 .tarif-item-3 .tarif-list__item::before {
-  background-image: url(/images/check-3.svg);
+  background-image: url(../images/check-3.svg);
 }
 
 .tarif-item-3 .tarif-footer {
@@ -873,7 +873,7 @@ ul {
   width: 6.1rem;
   height: 1.6rem;
   top: 0;
-  background-image: url(/images/logo-sm.svg);
+  background-image: url(../images/logo-sm.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
