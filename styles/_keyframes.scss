@@ -1,0 +1,27 @@
+@keyframes banner-title {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes banner-text {
+    0% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 70%;}
+}
+@keyframes banner-buttons {
+    0% {transform: scale(0);}
+    75% {transform: scale(0);}
+    100% {transform: scale(1)}
+}
+@keyframes banner-img-slide {
+    0% {transform: translate(0, 50px) scale(0); opacity: 0;}
+    75% {transform: translate(0, 50px) scale(0); opacity: 0;}
+    100% {transform: translate(0, 0) scale(1); opacity: 1;}
+}
+@keyframes rotating1 {
+    0%   { transform: rotate(0deg) scale(1) ; }
+    100% { transform: rotate(-45deg) scale(1.25) ; }
+}
+@keyframes rotating2 {
+    0%   { transform: rotate(0deg) scale(1); }
+    100% { transform: rotate(45deg) scale(1.25); }
+}

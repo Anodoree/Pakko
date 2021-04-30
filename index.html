@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Pakko</title>
+</head>
+<body>
+    <header>
+        <div id="header" class="header">
+            <a href="#"><img src="/images/logo.svg" alt="Logo" class="header__logo"></a>
+            <nav>
+                <ul id="nav" class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav__link">Tarifs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav__link">App&nbsp;iOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav__link nav__link-active">Me&nbsp;connecter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav__btn">S'inscrire</a>
+                    </li>
+                </ul>
+            </nav>
+                
+            <input type="checkbox" id="burger" onclick=burgerMenu()>
+            <label class="hamburger" for="burger">
+                <span class="hamburger__span hamburger__span-1"></span>
+                <span class="hamburger__span hamburger__span-2"></span>
+                <span class="hamburger__span hamburger__span-3"></span>
+            </label>
+            <!--<button class="hamburger" id="burger" onclick="burgerMenu()">
+                <span></span><span></span><span></span>
+            </button>-->
+
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <h1 class="banner__title">Devis, factures, suivi, plafonds, cotisations</h1>
+            <p class="banner__text">Pakko accompagne les micro-entrepreneurs et leur fait gagner du&nbsp;temps&nbsp;!</p>
+            <div class="btn-group">
+                <a href="#" class="btn-group__btn btn-group__btn-main">Créer&nbsp;mon&nbsp;compte</a>
+                <a href="#" class="btn-group__btn btn-group__btn-view">Voir&nbsp;la&nbsp;vidéo</a>
+            </div>
+            <div class="banner__img"></div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title" data-aos="fade-up">Des&nbsp;tarifs qui s'adaptent<br>à&nbsp;votre activité !</h2>
+            <div class="tarif">
+                <div class="tarif-item tarif-item-1" data-aos="fade-up">
+                    <div class="tarif-header">
+                        <div class="tarif-info__title">Gratuit</div>
+                        <p class="tarif-info__price"><span></span></p>
+                    </div>
+                    <div class="tarif-footer">
+                        <ul class="tarif-list">
+                            <li class="tarif-list__item">Gratuit</li>
+                            <li class="tarif-list__item">Jusqu'à 4 clients</li>
+                            <li class="tarif-list__item">Chiffre d'affaires jusqu'à 5&nbsp;000€</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tarif-item tarif-item-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tarif-header">
+                        <div class="tarif-info__title">Basique</div>
+                        <p class="tarif-info__price">5€ <span>/mois</span></p>
+                    </div>
+                    <div class="tarif-footer">
+                        <ul class="tarif-list">
+                            <li class="tarif-list__item">30 jours d'essai gratuits</li>
+                            <li class="tarif-list__item">Clients illimités</li>
+                            <li class="tarif-list__item">Chiffre d'affaires jusqu'à 30&nbsp;000€</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tarif-item  tarif-item-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tarif-header">
+                        <div class="tarif-info__title">Pro</div>
+                        <p class="tarif-info__price">12€ <span>/mois</span></p>
+                    </div>
+                    <div class="tarif-footer">
+                        <ul class="tarif-list">
+                            <li class="tarif-list__item">30 jours d'essai gratuits</li>
+                            <li class="tarif-list__item">Clients illimités</li>
+                            <li class="tarif-list__item">Chiffre d'affaires illimité</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="mentions">
+                <h2 class="mentions-title" data-aos="zoom-out">Ils&nbsp;en&nbsp;parlent<br>mieux&nbsp;que&nbsp;nous</h2>
+                <article>
+                    <div class="mentions-box mentions-box-01" data-aos="zoom-in-right">
+                        <header class="mentions-box-header">
+                            <img src="/images/avatars/mention-avatar-01.png" alt="Avatar" class="mentions-box__avatar">
+                            <div class="mentions-box-wrapper">
+                                <p class="mentions-box__user">Antony Legrand</p>
+                                <address class="mentions-box__address">@Wisibility</address>
+                            </div>
+                            <img src="/images/mention-social-1.svg" alt="From Twitter" class="mentions-box__social">
+                        </header>
+                        <p class="mentions-box__text">Merci pour toutes vos réponses concernant un bon service de&nbsp;facturation / suivi de CA pour les Free… Je crois qu'avec @Pakko_app j'ai trouvé ce que je cherche. Simple et efficace.</p>
+                        <p class="mentions-box__view"><a href="#">Voir le post</a></p>
+                    </div>
+                </article>
+                <article>
+                    <div class="mentions-box mentions-box-02" data-aos="zoom-out-right">
+                        <header class="mentions-box-header">
+                            <img src="/images/avatars/mention-avatar-02.png" alt="Avatar" class="mentions-box__avatar">
+                            <div class="mentions-box-wrapper">
+                                <p class="mentions-box__user">Retour utilisateur</p>
+                                <address class="mentions-box__address">Formulaire de feedback</address>
+                            </div>
+                            <img src="/images/mention-social-0.svg" alt="Comment" class="mentions-box__social">
+                        </header>
+                        <p class="mentions-box__text">Un onboarding clair et vraiment bien pensé. +10 pour les liens vers le site de l’URSSAF lors de l’inscription.</p>
+                        <p class="mentions-box__view unseen"><a href="#"></a></p>
+                    </div>
+                </article>
+                <article>
+                    <div class="mentions-box mentions-box-03" data-aos="zoom-in-left" data-aos-offset="240">
+                        <header class="mentions-box-header">
+                            <img src="/images/avatars/mention-avatar-03.png" alt="Avatar" class="mentions-box__avatar">
+                            <div class="mentions-box-wrapper">
+                                <p class="mentions-box__user">Retour utilisateur</p>
+                                <address class="mentions-box__address">Formulaire de feedback</address>
+                            </div>
+                            <img src="/images/mention-social-0.svg" alt="Comment" class="mentions-box__social">
+                        </header>
+                        <p class="mentions-box__text">C’est exactement ce que je cherchais.</p>
+                        <p class="mentions-box__view unseen"><a href="#"></a></p>
+                    </div>
+                </article>
+                <article>
+                    <div class="mentions-box mentions-box-04" data-aos="zoom-out-left">
+                        <header class="mentions-box-header">
+                            <img src="/images/avatars/mention-avatar-04.png" alt="Avatar" class="mentions-box__avatar">
+                            <div class="mentions-box-wrapper">
+                                <p class="mentions-box__user">Matthieu Teyssandier</p>
+                                <address class="mentions-box__address">@m_teyssandier</address>
+                            </div>
+                            <img src="/images/mention-social-1.svg" alt="From Twitter" class="mentions-box__social">
+                        </header>
+                        <p class="mentions-box__text">@Pakko_app Best service de&nbsp;CA !</p>
+                        <p class="mentions-box__view"><a href="#">Voir le post</a></p>
+                    </div>
+                </article>
+                <article>
+                    <div class="mentions-box mentions-box-05" data-aos="zoom--in-up">
+                        <header class="mentions-box-header">
+                            <img src="/images/avatars/mention-avatar-05.png" alt="Avatar" class="mentions-box__avatar">
+                            <div class="mentions-box-wrapper">
+                                <p class="mentions-box__user">Retour utilisateur</p>
+                                <address class="mentions-box__address">Formulaire de feedback</address>
+                            </div>
+                            <img src="/images/mention-social-0.svg" alt="Comment" class="mentions-box__social">
+                        </header>
+                        <p class="mentions-box__text">Le service a l’air super ça faisait longtemps que je cherchais un dashboard aussi clean que le votre ! Ça donne envie de l'utiliser !</p>
+                        <p class="mentions-box__view unseen"><a href="#"></a></p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-item footer-item-main" data-aos="zoom-in" data-aos-delay="300">
+                <a href="#"><img src="/images/logo.svg" alt="Logo" class="footer__logo"></a>
+                <p class="footer__slogan">Gagnez du&nbsp;temps,<br>faites ce que vous aimez&nbsp;!</p>
+                <div class="footer__social">
+                    <a href="#"><img src="/images/icon_facebook.svg" alt="Facebook" title="Facebook"></a>
+                    <a href="#"><img src="/images/icon_instagram.svg" alt="Instagram" title="Instagram"></a>
+                    <a href="#"><img src="/images/icon_linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="footer-item" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="footer-list-header">Fonctionnalités</h2>
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="#">Suivi et&nbsp;analyse de&nbsp;l'activité</a></li>
+                    <li class="footer-list__item"><a href="#">Devis & facturation</a></li>
+                    <li class="footer-list__item"><a href="#">Gestion des projets et&nbsp;clients</a></li>
+                </ul>
+            </div>
+            <div class="footer-item" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="footer-list-header">À propos</h2>
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="#">Tarifs</a></li>
+                    <li class="footer-list__item"><a href="#">Centre d'aide</a></li>
+                    <li class="footer-list__item"><a href="#">CGV</a></li>
+                    <li class="footer-list__item"><a href="#">Politique de&nbsp;confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="footer-item" data-aos="fade-up">
+                <h2 class="footer-list-header">Ressources</h2>
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="#">Deals</a></li>
+                    <li class="footer-list__item"><a href="#">Outils</a></li>
+                    <li class="footer-list__item"><a href="#">Blog</a></li>
+                    <li class="footer-list__item"><a href="#">Simulateur TJM</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
