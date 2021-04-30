@@ -4,3 +4,4 @@
         Demonstration
     </a>
 </p>
+<p>Thanks for the animation AOS project: https://github.com/michalsnik/aos</p>
