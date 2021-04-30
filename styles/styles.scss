@@ -255,7 +255,7 @@ ul {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top center;
-        animation: banner-img-slide 3.5s ease;
+        animation: banner-img-slide 4s ease;
         @include breakpoint (xl) {
             height: 80rem;
         }
@@ -275,7 +275,7 @@ ul {
     }
 }
 .btn-group {
-    animation: banner-buttons 3s ease;
+    animation: banner-buttons 3.5s ease;
     padding: 2rem 0 .2rem;
     &__btn {
         color: $white;

@@ -535,8 +535,8 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
-  -webkit-animation: banner-img-slide 3.5s ease;
-          animation: banner-img-slide 3.5s ease;
+  -webkit-animation: banner-img-slide 4s ease;
+          animation: banner-img-slide 4s ease;
 }
 
 @media (max-width: 1280px) {
@@ -571,8 +571,8 @@ ul {
 }
 
 .btn-group {
-  -webkit-animation: banner-buttons 3s ease;
-          animation: banner-buttons 3s ease;
+  -webkit-animation: banner-buttons 3.5s ease;
+          animation: banner-buttons 3.5s ease;
   padding: 2rem 0 .2rem;
 }
 
