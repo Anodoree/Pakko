@@ -559,7 +559,7 @@ ul {
 
 @media (max-width: 576px) {
   .banner__img {
-    height: 45rem;
+    height: 40rem;
     background-size: 500px;
   }
 }
