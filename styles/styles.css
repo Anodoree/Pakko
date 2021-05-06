@@ -564,12 +564,6 @@ ul {
   }
 }
 
-@media (max-width: 425px) {
-  .banner__img {
-    background-position: top left;
-  }
-}
-
 .btn-group {
   -webkit-animation: banner-buttons 3.5s ease;
           animation: banner-buttons 3.5s ease;

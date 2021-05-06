@@ -269,9 +269,6 @@ ul {
             height: 45rem;
             background-size: 500px;
         }
-        @include breakpoint (xxs) {
-            background-position: top left;
-        }
     }
 }
 .btn-group {
