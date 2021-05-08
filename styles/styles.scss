@@ -641,6 +641,7 @@ ul {
             }
             @include breakpoint (xs) {
                 order: 2;
+                width: 100%;
                 text-align: center;
             }
         }
@@ -862,7 +863,7 @@ footer {
                 }
             }
             @include breakpoint (sm) {
-                line-height: 2.5rem;
+                line-height: 3.5rem;
             }
         }
     }
